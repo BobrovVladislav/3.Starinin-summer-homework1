@@ -1,0 +1,264 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #999;
+    background: #272525;
+    width: 100%;
+    background: #272525 url(/images/top-bg.jpg) repeat-x;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+}
+
+img {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    border: none;
+}
+
+h1 {
+    padding: 0 0 5px 0;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+h2 {
+    padding: 0 0 5px 0;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+h3 {
+    padding: 0 0 5px 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+h3 a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.button1 {
+
+    margin-bottom: 15px;
+    display: block;
+    width: 120px;
+    height: 25px;
+    padding: 5px 0 0 0;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    background: url(/images/button1.png) no-repeat;
+}
+
+/*Header*/
+header {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.banner {
+    width: 980px;
+    height: 250px;
+    background: url(/images/banner.jpg) no-repeat;
+}
+
+/*Header*/
+
+/*nav*/
+nav {
+    width: 980px;
+    margin: 0 auto;
+    height: 65px;
+    background: url(/images/menu.jpg) no-repeat;
+}
+
+nav ul {
+    width: 500px;
+    margin: 0px auto;
+    padding: 20px 0 0 15px;
+    list-style: none;
+    padding: 0 auto;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    float: left;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #999999;
+    font-weight: bold;
+}
+
+/*nav*/
+
+.container-content {
+    width: 960px;
+    padding: 10px;
+    margin: 0px auto;
+    clear: both;
+}
+
+.side-bar {
+    float: left;
+    width: 220px;
+}
+
+/*aside1*/
+aside1 {
+    float: left;
+    width: 180px;
+    padding: 20px 19px 20px 19px;
+    background: #1b1919;
+    border: 1px solid #363434;
+    margin-bottom: 20px;
+}
+
+aside1 ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+aside1 ul li {
+    margin: 0px;
+    padding: 0 0 0 0;
+    margin-bottom: 5px;
+    border-left: 5px solid #000;
+    list-style: none;
+}
+
+aside1 ul li a {
+    display: block;
+    background: #242224;
+    padding: 5px 0 5px 10px;
+    color: #b5b1b1;
+    text-decoration: none;
+}
+
+aside1 ul li a :hover {
+    color: #ffffff;
+    background: #000;
+}
+
+/*aside1*/
+
+/*aside2*/
+aside2 {
+    clear: both;
+    float: left;
+    width: 180px;
+    padding: 20px 19px 20px 19px;
+    background: #1b1919;
+    border: 1px solid #363434;
+    margin-bottom: 10px;
+}
+
+#search_field {
+    padding: 5px 0 0 0;
+    height: 20px;
+    width: 175px;
+    margin-bottom: 10px;
+}
+
+#search_button {
+    float: right;
+    width: 120px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+    white-space: pre;
+    background: url(/images/search-button.png) no-repeat;
+    color: #000000;
+    border: none;
+}
+
+/*aside2*/
+
+/*main*/
+main {
+    float: left;
+    width: 460px;
+    padding: 20px 19px 0 19px;
+    background: #1b1919;
+    border: 1px solid #363434;
+    margin: 0 10px 0 10px;
+}
+
+.image_wrapper_01 {
+    float: left;
+    position: relative;
+    margin: 3px 20px 0 0;
+    background: #131212;
+    padding: 4px;
+}
+
+.image_wrapper_01 img {
+    border: 1px solid #363434;
+    width: 50px;
+    height: 50px;
+}
+
+.section1 p {
+    margin-bottom: 15px;
+}
+
+.section2 p {
+    margin-bottom: 15px;
+}
+
+/*main*/
+
+/*aside3*/
+aside3 {
+    float: left;
+    width: 180px;
+    padding: 20px 19px 20px 19px;
+    background: #1b1919;
+    border: 1px solid #363434;
+}
+
+/*aside3*/
+
+/*footer*/
+footer {
+    clear: both;
+    width: 990px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    text-align: center;
+    background: url(/images/footer.jpg) no-repeat;
+}
+
+/*footer*/
